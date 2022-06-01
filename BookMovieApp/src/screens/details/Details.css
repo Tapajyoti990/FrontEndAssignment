@@ -1,0 +1,35 @@
+.homeButton {
+  margin-bottom: 0px;
+  height: 24px;
+}
+
+.homeButton:hover {
+  cursor: pointer;
+}
+
+.detailContainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 24px;
+}
+
+.childContainer1 {
+  width: 20%;
+  flex-shrink: 1;
+}
+
+.childContainer2 {
+  width: 60%;
+  flex-shrink: 1;
+  margin-left: 1%;
+}
+
+.childContainer3 {
+  width: 20%;
+  flex-shrink: 1;
+}
+
+.movieImage {
+  width: 100%;
+  height: auto;
+}
